@@ -28,7 +28,7 @@ METHODS = ["full", "freeze", "lora"]
 
 PEFT_METHODS = ["lora"]
 
-SUBJECTS = ["Average", "STEM", "Social Sciences", "Humanities", "Other"]
+SUBJECTS = ["Average", "Ruijie"]
 
 SUPPORTED_MODELS = OrderedDict()
 

@@ -34,7 +34,7 @@ class EvaluationArguments:
         metadata={"help": "Number of examplars for few-shot learning."}
     )
     save_dir: Optional[str] = field(
-        default=None,
+        default="/home/featurize/work/qzy/LLaMA-Factory/results",
         metadata={"help": "Path to save the evaluation results."}
     )
     download_mode: Optional[DownloadMode] = field(

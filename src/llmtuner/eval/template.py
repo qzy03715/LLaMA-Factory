@@ -79,7 +79,7 @@ register_eval_template(
 
 register_eval_template(
     name="zh",
-    system="以下是中国关于{subject}考试的单项选择题，请选出其中的正确答案。\n\n",
+    system="以下是中国关于{subject}考试的不定项选择题，可能有一个或多个正确答案，请选出其中的正确答案。\n\n",
     choice="\n{choice}. {content}",
     answer="\n答案：",
     prefix="\n"
