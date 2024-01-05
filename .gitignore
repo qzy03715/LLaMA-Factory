@@ -163,3 +163,4 @@ cython_debug/
 user.config
 saves/
 cache/
+Qwen-1_8B/
